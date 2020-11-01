@@ -1,5 +1,5 @@
-
 @import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 body {
   margin: 0;
@@ -16,15 +16,49 @@ code {
     monospace;
 }
 
-.main{
-  .card-title {
-    margin-bottom: .75rem;
-    font-size: larger;
-    font-weight: 500;
+.main {
+  .load-botton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .random-user {
+    .card-title {
+      margin-bottom: .75rem;
+      font-size: larger;
+      font-weight: 500;
+    }
+
+    .card-text {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-size: small;
+    }
+
+    .card-view {
+      margin: 0.5rem;
+      width: 18.55%;
+      padding: 0.5rem;
+
+      .card {
+        width: 100%;
+        box-shadow: 5px 5px 5px 5px lightgray;
+
+      }
+    }
+  }
 }
-.card-text{
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: small;
+
+.header {
+  padding: 2rem;
+  color: white;
+  background-color: lightsalmon;
 }
+
+.footer {
+  padding: 1rem;
+  color: white;
+  background-color: lightsalmon;
 }

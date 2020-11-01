@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+## Target Front-end Developer Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hi, thank you for applying for the role of front-end developer with Target Australia!
 
-## Available Scripts
+We're really excited to learn about you, including your coding style, your problem solving, and your approach to development.
 
-In the project directory, you can run:
+This test is not intended to take a long time. It is an opportunity for you to show us how you work, what you prioritise and that your skillset is aligned to work with us in our code base.
 
-### `yarn start`
+What we are looking for:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- How is your code laid out?
+- How are you with styling components?
+- How testable/tested is your code & how you follow code styling conventions
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+We don't expect everything to be solved entirely - time constraints are there and we know other commitments get in the way. When you are happy with your solution, please fill out any additional details in the ASSUMPTIONS.md - This file is there for you to lay out what you would do next, or any things you have purposely omited due to time constraints.
 
-### `yarn test`
+### The problem
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Part 1: Create a small application that fetches data from the [RandomUser.me API](https://randomuser.me/api/), and displays the data in a small user card - showing only core data. Think of it as a card that would be displayed in a public web forum.
 
-### `yarn build`
+Part 2: Expand on the application by allowing it to fetch 5 random user cards, with a button to load a more cards. These cards should be stacked neatly like a conversation thread.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Your solution
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For your solution, we ask that you don't use a pre-existing CSS framework (Bootstrap, MaterialUI etc). We want to see how you go with styling components. We don't mind what solution you use for CSS (pure css, SASS, JSS, Styled Components etc) just that we can see how you style your components.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feel free to use any state management tool as needed, and anything else needed to accomplish the goals.
 
-### `yarn eject`
+### Submitting & building your solution
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To build your solution, fork this repository and clone it into a local workspace. Work through any of your changes as you generally would, managing the commits through Git. When you are ready, and have updated your ASSUMPTIONS.md file - push your changes to your forked repository, and respond to the e-mail with a link to the repo. From there, we'll let you know once we've completed our assessment of your code, and you will be asked to delete your fork.
